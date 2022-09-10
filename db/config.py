@@ -1,0 +1,6 @@
+database = 'postgres'
+user = 'postgres'
+password = 'postgres'
+host = 'localhost'
+port = '5432'
+name_database = 'dating_bot_vk'
