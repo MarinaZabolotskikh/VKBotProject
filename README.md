@@ -4,7 +4,7 @@
 
 <details>
   <summary> Проект базы данных</summary>
-  ![image](https://github.com/MarinaZabolotskikh/VKBotProject/blob/db/diagram/db.png?raw=true)
+  ![image](https://raw.githubusercontent.com/MarinaZabolotskikh/VKBotProject/db/diagram/db.png)
 </details>
 
 ### Для работы бота необходимо произвести первичную настройку базы данных.
