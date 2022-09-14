@@ -90,6 +90,10 @@ class Server:
         us_ph = user_1.get_photo_users(data[0])
         msg = f'''{us_dict["Name"]} {us_dict["Last_name"]}\nСсылка на профиль: https://vk.com/id{data[0]}\n'''
         answer = self.get_attachment(us_ph, data, peer_id, msg)
+        if self.s.query(Lastfind.id_user).filter(Lastfind.id_user == id).first() == None:
+            us_lf = Lastfind(id_user=id, id_user_lf=data[0])
+            self.s.add(us_lf)
+            self.s.commit()
         self.s.query(Lastfind).update({Lastfind.id_user:id, Lastfind.id_user_lf:data[0]})                                                         #сохранение последнего запроса в бд
         self.s.commit()
         return answer
