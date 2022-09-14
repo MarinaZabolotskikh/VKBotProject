@@ -4,7 +4,7 @@
 
 <details>
   <summary> Проект базы данных</summary>
-  <img src='https://raw.githubusercontent.com/MarinaZabolotskikh/VKBotProject/db/diagram/db.png' />
+  <img src='https://raw.githubusercontent.com/MarinaZabolotskikh/VKBotProject/master/diagram/db.png' />
 </details>
 
 ### Для работы бота необходимо!.
